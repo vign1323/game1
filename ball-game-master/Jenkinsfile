@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/kmbharathi97/ball-game.git'
+                git 'https://github.com/vign1323/game1.git'
             }
         }
         stage('Build the Docker image') {
