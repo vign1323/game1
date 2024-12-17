@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/vign1323/game1/tree/master/ball-game-master'
+                git 'https://github.com/vign1323/game1.git'
             }
         }
         stage('Build the Docker image') {
